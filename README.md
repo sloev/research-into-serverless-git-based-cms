@@ -5,7 +5,7 @@ since i dont know php, and since the website is mostly just a bunch of bloglike 
 
 THAT is until i figured out the backcatalog of posts going back to 2011 with huge image assets.
 
-so i came up with this plan: https://github.com/sloev/research-into-serverless-git-based-cms/blob/main/README.md
+so i came up with this plan: https://github.com/sloev/research-into-serverless-git-based-cms/blob/main/README.md (hackernews discuss: https://news.ycombinator.com/item?id=35281728)
 
 which roughly is to create two repos: one repo for a single file cms in the form of a cloudflare worker that does ultra simple access control together with image upload (presigned backblaze urls) and form submit (musicevents new/updated) as json
 
