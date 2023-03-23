@@ -1,4 +1,19 @@
 # research-into-serverless-git-based-cms
+	
+i have been asked by a small music venue to see if i could simplify their drupal install
+since i dont know php, and since the website is mostly just a bunch of bloglike posts with events, i thought it would make a good candidate for a static page
+
+THAT is until i figured out the backcatalog of posts going back to 2011 with huge image assets.
+
+so i came up with this plan: https://github.com/sloev/research-into-serverless-git-based-cms/blob/main/README.md
+
+which roughly is to create two repos: one repo for a single file cms in the form of a cloudflare worker that does ultra simple access control together with image upload (presigned backblaze urls) and form submit (musicevents new/updated) as json
+
+another repo for keeping the layout plus all the music events json etc this repo can be public andwill build static html on each push
+
+my question is : "is this gonna make the site more maintainable in the future?"
+
+currently they have no person responsible for the website s it has to be easy to get into and maintain for an occational dev
 
 goal:
 
